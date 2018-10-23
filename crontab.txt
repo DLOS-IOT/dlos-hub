@@ -1,0 +1,2 @@
+*/5 * * * * cd dlos-hub; node check_daemon.js 1>>~/.config/dlos-hub/check_daemon.log 2>>~/.config/dlos-hub/check_daemon.err
+*/15 * * * * cd dlos-hub; node check_witnesses.js 1>>~/.config/dlos-hub/check_witnesses.log 2>>~/.config/dlos-hub/check_witnesses.err

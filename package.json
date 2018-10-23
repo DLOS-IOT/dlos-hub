@@ -1,0 +1,33 @@
+{
+  "name": "dlos-hub",
+  "description": "dlos Hub",
+  "author": "dlos",
+  "version": "0.1.5",
+  "main": "start.js",
+  "keywords": [
+    "hub",
+    "dlos",
+    "messaging",
+    "chat"
+  ],
+  "scripts": {
+    "start": "node start.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/DLOS-IOT/dlos-hub.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/DLOS-IOT/dlos-hub/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "apn": "^2.2.0",
+    "dlos-relay": "git+https://github.com/DLOS-IOT/dlos-relay.git",
+    "request": "^2.81.0"
+  }
+}
