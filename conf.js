@@ -44,7 +44,7 @@ exports.initial_witnesses = [
 ];
 
 exports.initial_peers = [
-	'wss://dlos.cn/ds's
+	'wss://dlos.cn/ds'
 ];
 
 //exports.trustedRegistries = {
